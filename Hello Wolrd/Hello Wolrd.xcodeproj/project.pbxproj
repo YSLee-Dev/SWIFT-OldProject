@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4CE4B54253D62FA00746B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE4B53253D62FA00746B62 /* AppDelegate.swift */; };
+		D4CE4B56253D62FA00746B62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE4B55253D62FA00746B62 /* SceneDelegate.swift */; };
+		D4CE4B58253D62FA00746B62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE4B57253D62FA00746B62 /* ViewController.swift */; };
+		D4CE4B5B253D62FA00746B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CE4B59253D62FA00746B62 /* Main.storyboard */; };
+		D4CE4B5D253D62FD00746B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4CE4B5C253D62FD00746B62 /* Assets.xcassets */; };
+		D4CE4B60253D62FD00746B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CE4B5E253D62FD00746B62 /* LaunchScreen.storyboard */; };
+		D4CE4B6B253D62FD00746B62 /* Hello_WolrdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE4B6A253D62FD00746B62 /* Hello_WolrdTests.swift */; };
+		D4CE4B76253D62FD00746B62 /* Hello_WolrdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE4B75253D62FD00746B62 /* Hello_WolrdUITests.swift */; };
+		D4CE4B84253D6C5800746B62 /* Launch Screen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CE4B83253D6C5800746B62 /* Launch Screen2.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4CE4B67253D62FD00746B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4CE4B48253D62FA00746B62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4CE4B4F253D62FA00746B62;
+			remoteInfo = "Hello Wolrd";
+		};
+		D4CE4B72253D62FD00746B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4CE4B48253D62FA00746B62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4CE4B4F253D62FA00746B62;
+			remoteInfo = "Hello Wolrd";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4CE4B50253D62FA00746B62 /* Hello Wolrd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Wolrd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CE4B53253D62FA00746B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4CE4B55253D62FA00746B62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4CE4B57253D62FA00746B62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4CE4B5A253D62FA00746B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4CE4B5C253D62FD00746B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4CE4B5F253D62FD00746B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4CE4B61253D62FD00746B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CE4B66253D62FD00746B62 /* Hello WolrdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WolrdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CE4B6A253D62FD00746B62 /* Hello_WolrdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WolrdTests.swift; sourceTree = "<group>"; };
+		D4CE4B6C253D62FD00746B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CE4B71253D62FD00746B62 /* Hello WolrdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WolrdUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CE4B75253D62FD00746B62 /* Hello_WolrdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WolrdUITests.swift; sourceTree = "<group>"; };
+		D4CE4B77253D62FD00746B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CE4B83253D6C5800746B62 /* Launch Screen2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen2.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4CE4B4D253D62FA00746B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CE4B63253D62FD00746B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CE4B6E253D62FD00746B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4CE4B47253D62FA00746B62 = {
+			isa = PBXGroup;
+			children = (
+				D4CE4B52253D62FA00746B62 /* Hello Wolrd */,
+				D4CE4B69253D62FD00746B62 /* Hello WolrdTests */,
+				D4CE4B74253D62FD00746B62 /* Hello WolrdUITests */,
+				D4CE4B51253D62FA00746B62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4CE4B51253D62FA00746B62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4CE4B50253D62FA00746B62 /* Hello Wolrd.app */,
+				D4CE4B66253D62FD00746B62 /* Hello WolrdTests.xctest */,
+				D4CE4B71253D62FD00746B62 /* Hello WolrdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4CE4B52253D62FA00746B62 /* Hello Wolrd */ = {
+			isa = PBXGroup;
+			children = (
+				D4CE4B53253D62FA00746B62 /* AppDelegate.swift */,
+				D4CE4B83253D6C5800746B62 /* Launch Screen2.storyboard */,
+				D4CE4B55253D62FA00746B62 /* SceneDelegate.swift */,
+				D4CE4B57253D62FA00746B62 /* ViewController.swift */,
+				D4CE4B59253D62FA00746B62 /* Main.storyboard */,
+				D4CE4B5C253D62FD00746B62 /* Assets.xcassets */,
+				D4CE4B5E253D62FD00746B62 /* LaunchScreen.storyboard */,
+				D4CE4B61253D62FD00746B62 /* Info.plist */,
+			);
+			path = "Hello Wolrd";
+			sourceTree = "<group>";
+		};
+		D4CE4B69253D62FD00746B62 /* Hello WolrdTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4CE4B6A253D62FD00746B62 /* Hello_WolrdTests.swift */,
+				D4CE4B6C253D62FD00746B62 /* Info.plist */,
+			);
+			path = "Hello WolrdTests";
+			sourceTree = "<group>";
+		};
+		D4CE4B74253D62FD00746B62 /* Hello WolrdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4CE4B75253D62FD00746B62 /* Hello_WolrdUITests.swift */,
+				D4CE4B77253D62FD00746B62 /* Info.plist */,
+			);
+			path = "Hello WolrdUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4CE4B4F253D62FA00746B62 /* Hello Wolrd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CE4B7A253D62FD00746B62 /* Build configuration list for PBXNativeTarget "Hello Wolrd" */;
+			buildPhases = (
+				D4CE4B4C253D62FA00746B62 /* Sources */,
+				D4CE4B4D253D62FA00746B62 /* Frameworks */,
+				D4CE4B4E253D62FA00746B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hello Wolrd";
+			productName = "Hello Wolrd";
+			productReference = D4CE4B50253D62FA00746B62 /* Hello Wolrd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4CE4B65253D62FD00746B62 /* Hello WolrdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CE4B7D253D62FD00746B62 /* Build configuration list for PBXNativeTarget "Hello WolrdTests" */;
+			buildPhases = (
+				D4CE4B62253D62FD00746B62 /* Sources */,
+				D4CE4B63253D62FD00746B62 /* Frameworks */,
+				D4CE4B64253D62FD00746B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4CE4B68253D62FD00746B62 /* PBXTargetDependency */,
+			);
+			name = "Hello WolrdTests";
+			productName = "Hello WolrdTests";
+			productReference = D4CE4B66253D62FD00746B62 /* Hello WolrdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4CE4B70253D62FD00746B62 /* Hello WolrdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CE4B80253D62FD00746B62 /* Build configuration list for PBXNativeTarget "Hello WolrdUITests" */;
+			buildPhases = (
+				D4CE4B6D253D62FD00746B62 /* Sources */,
+				D4CE4B6E253D62FD00746B62 /* Frameworks */,
+				D4CE4B6F253D62FD00746B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4CE4B73253D62FD00746B62 /* PBXTargetDependency */,
+			);
+			name = "Hello WolrdUITests";
+			productName = "Hello WolrdUITests";
+			productReference = D4CE4B71253D62FD00746B62 /* Hello WolrdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4CE4B48253D62FA00746B62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "이윤수";
+				TargetAttributes = {
+					D4CE4B4F253D62FA00746B62 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					D4CE4B65253D62FD00746B62 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D4CE4B4F253D62FA00746B62;
+					};
+					D4CE4B70253D62FD00746B62 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D4CE4B4F253D62FA00746B62;
+					};
+				};
+			};
+			buildConfigurationList = D4CE4B4B253D62FA00746B62 /* Build configuration list for PBXProject "Hello Wolrd" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4CE4B47253D62FA00746B62;
+			productRefGroup = D4CE4B51253D62FA00746B62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4CE4B4F253D62FA00746B62 /* Hello Wolrd */,
+				D4CE4B65253D62FD00746B62 /* Hello WolrdTests */,
+				D4CE4B70253D62FD00746B62 /* Hello WolrdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4CE4B4E253D62FA00746B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE4B60253D62FD00746B62 /* LaunchScreen.storyboard in Resources */,
+				D4CE4B84253D6C5800746B62 /* Launch Screen2.storyboard in Resources */,
+				D4CE4B5D253D62FD00746B62 /* Assets.xcassets in Resources */,
+				D4CE4B5B253D62FA00746B62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CE4B64253D62FD00746B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CE4B6F253D62FD00746B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4CE4B4C253D62FA00746B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE4B58253D62FA00746B62 /* ViewController.swift in Sources */,
+				D4CE4B54253D62FA00746B62 /* AppDelegate.swift in Sources */,
+				D4CE4B56253D62FA00746B62 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CE4B62253D62FD00746B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE4B6B253D62FD00746B62 /* Hello_WolrdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CE4B6D253D62FD00746B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE4B76253D62FD00746B62 /* Hello_WolrdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4CE4B68253D62FD00746B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4CE4B4F253D62FA00746B62 /* Hello Wolrd */;
+			targetProxy = D4CE4B67253D62FD00746B62 /* PBXContainerItemProxy */;
+		};
+		D4CE4B73253D62FD00746B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4CE4B4F253D62FA00746B62 /* Hello Wolrd */;
+			targetProxy = D4CE4B72253D62FD00746B62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4CE4B59253D62FA00746B62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CE4B5A253D62FA00746B62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4CE4B5E253D62FD00746B62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CE4B5F253D62FD00746B62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4CE4B78253D62FD00746B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4CE4B79253D62FD00746B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4CE4B7B253D62FD00746B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hello Wolrd/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeYoonSu.Hello-Wolrd";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D4CE4B7C253D62FD00746B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hello Wolrd/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeYoonSu.Hello-Wolrd";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D4CE4B7E253D62FD00746B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hello WolrdTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeYoonSu.Hello-WolrdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello Wolrd.app/Hello Wolrd";
+			};
+			name = Debug;
+		};
+		D4CE4B7F253D62FD00746B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hello WolrdTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeYoonSu.Hello-WolrdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello Wolrd.app/Hello Wolrd";
+			};
+			name = Release;
+		};
+		D4CE4B81253D62FD00746B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hello WolrdUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeYoonSu.Hello-WolrdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hello Wolrd";
+			};
+			name = Debug;
+		};
+		D4CE4B82253D62FD00746B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hello WolrdUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeYoonSu.Hello-WolrdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hello Wolrd";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4CE4B4B253D62FA00746B62 /* Build configuration list for PBXProject "Hello Wolrd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CE4B78253D62FD00746B62 /* Debug */,
+				D4CE4B79253D62FD00746B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4CE4B7A253D62FD00746B62 /* Build configuration list for PBXNativeTarget "Hello Wolrd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CE4B7B253D62FD00746B62 /* Debug */,
+				D4CE4B7C253D62FD00746B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4CE4B7D253D62FD00746B62 /* Build configuration list for PBXNativeTarget "Hello WolrdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CE4B7E253D62FD00746B62 /* Debug */,
+				D4CE4B7F253D62FD00746B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4CE4B80253D62FD00746B62 /* Build configuration list for PBXNativeTarget "Hello WolrdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CE4B81253D62FD00746B62 /* Debug */,
+				D4CE4B82253D62FD00746B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4CE4B48253D62FA00746B62 /* Project object */;
+}
